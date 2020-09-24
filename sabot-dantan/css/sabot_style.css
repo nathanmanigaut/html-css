@@ -1,0 +1,158 @@
+/***************************************************
+GLOBAL
+***************************************************/
+@font-face {
+    font-family: 'blackswordregular';
+    src: url('../fonts/blacksword-webfont.woff2') format('woff2'),
+         url('../fonts/blacksword-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    box-sizing: border-box;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+
+
+/***************************************************
+STRUCTURE
+***************************************************/
+#conteneur{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow:1px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.fond{
+    background-color: #ECDCCF;
+}
+
+.fondgris{
+    background-color: #DFDFDF;    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: blacksword;
+    min-height: 130px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+h2{
+    display: inline-block;
+    min-height: 100px;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+.menu{
+    font-size: 25px;
+    min-height: 30px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.menu a{
+    display: block;
+    font-weight: normal;
+    min-height: 30px;
+    padding: 15px 0;
+}
+
+.menu li{
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu ul{
+    padding: 0;
+}
+
+.menu li a:hover{
+   font-weight: bold;
+   transition: 0.5s;
+   background-color: #DFDFDF;
+}
+
+.menu .on{
+    background-color: #DFDFDF;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.bien{
+    min-height: 70px;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+.pre{
+    margin-bottom: 0;
+}
+
+.droite, .gauche{
+    margin: 0;
+}
+
+.gauche{
+    text-align: justify;
+    padding: 0 10px;
+    max-width: 950px;
+}
+
+.droite{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.gauched{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.pied{
+    border-top: 1px solid black;
+    min-height: 125px;
+}
+

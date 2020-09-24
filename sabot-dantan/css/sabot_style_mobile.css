@@ -1,0 +1,30 @@
+@media screen and (max-width: 1100px) {
+    #conteneur {
+    width : 100%;
+    }
+    
+    }
+   
+@media screen and (max-width: 950px){
+
+    .diamant, .rab, .demo{
+        display: block;
+        text-align: center;
+    }
+    .gauche{
+        text-align: center;
+        padding: 0 10px;
+        max-width: 950px;
+    }
+    .droite{
+        text-align: center;
+        padding: 0 10px;
+        max-width: 950px;
+        text-align: center;
+    }
+    .gauched{
+        text-align: center;
+        padding: 0 50px;
+        max-width: 1000px;
+    }
+}
