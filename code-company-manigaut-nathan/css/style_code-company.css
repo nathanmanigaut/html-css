@@ -1,0 +1,298 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteneur{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+.fondbleu{
+    background-color: #093347;
+    min-height: 100px;
+}
+
+.tete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu li{
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.menu{
+    width: 570px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    display: block;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 0;
+}
+
+.menu li a:hover{
+    font-weight: bold;
+    transition: 0.5s;
+    background-color: #1f4558;
+ }
+
+.menu a:hover{
+    color: #8ebdd6;
+}
+
+#imagefond{
+    min-height: 510px;
+    background-image: url('../img/imagedefond.jpg');
+    background-size: cover;
+}
+
+h2{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding-top: 100px;
+    font-size: 60px;
+}
+
+header h2{
+    font-weight: 300;
+    font-size: 24px;
+    border-bottom: 1px solid #5a8ca7;
+    margin: 0px;
+    padding-bottom: 28px;
+}
+
+header p{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #b4d1e1;
+    margin:0;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    background-color: #3b6075;
+}
+
+#photoprofil{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+main{
+    text-align: center;
+}
+
+main h2, #photoprofil h3, main p{
+    color: #0d415c;
+}
+
+main h2{
+    margin-top: 70px;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#photoprofil h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#photoprofil p{
+    color: #8ba5b3;
+}
+
+.para{
+    border-top: 1px solid #c8d4da;
+    font-size: 15px;
+    padding-top: 40px;
+    margin-top: 35px;
+    padding-bottom: 70px;
+    line-height: 27px;
+}
+
+.fondvert{
+    background-color: #3ead87;
+}
+
+#portfolio h2, #portfolio p{
+    color: white;
+}
+
+#portfolio h2{
+    padding-top: 52px;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+#portfolio p{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 75px;
+}
+
+.flexport{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imageport1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+}
+
+.imageport2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+#contact{
+    text-align: center;
+    color: white;
+    background-color: #213139;
+}
+
+#contact h2{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+#contact .para2{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+input {
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px 0;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+form p{
+    margin: 10px;
+}
+
+textarea{
+    margin: 0 auto;
+    width: 500px;
+    height: 80px;
+    border-radius: 40px;
+    padding-top: 60px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnmes input{
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    background-color: #213139;
+    margin-bottom: 86px;
+}
+
+
+.pied{
+    display: flex;
+    border-top: 1px solid white;
+    height: 146px;
+    width: 1140px;
+}
+
+.piedg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 375px;
+    height: 146px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.piedd{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 146px;
+    width: 765px;
+    font-size: 12px;
+    font-weight: 400;
+}

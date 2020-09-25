@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'lavanderia regular';
+    src: url('../fonts/lavanderie-regular.woff2')
+   format('woff2'),
+    url('../fonts/lavanderie-regular.woff')
+   format('woff');
+    font-weight: normal;
+    font-style: normal;
+   }
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.conteneur{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.imagefond{
+    background-image: url("../img/fleur.jpg");
+    min-height: 590px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+    color:white;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flextete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.menu{
+    width: 468px;
+    min-height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.menu li{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.entete{
+    text-align: center;
+}
+
+.fondtete{
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1{
+    margin-top: 0;
+    font-family: lavanderia regular;
+    font-size: 41px;
+    color: black;
+    font-weight: normal;
+}
+
+.rose{
+    font-family: lavanderia regular;
+    color:#b73958;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.imagefond p{
+    font-size: 22px;
+    padding-bottom: 0px;
+    color: #f2f2f2;
+    margin-top: 0px;
+}
+
+.imagefond h2{
+    padding-top: 245px;
+    font-size: 69px;
+    margin-bottom: 0;
+}
+
+.menu .login{
+    display: block;
+    width: 86px;
+    height: 26px;
+    background-color: #de6d6e;
+    color: white;
+    border-radius: 5%;
+    padding-bottom: 5px;
+    margin-left: 25px;
+}
+
+.login img{
+    padding-top: 5px;
+}
+
+.maintete{
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.maintete h2{
+    font-weight: normal;
+    font-size: 33px;
+    margin-top: 65px;
+}
+
+.maintete p{
+    color: #8b8b8b;
+    font-size: 17px;
+}
+
+.fleximage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+}
+
+.fleximage>a:hover{
+    transition: 1s;
+    opacity: 0.6;
+}
+
+.imagetickets{
+    min-height: 182px;
+    min-width: 182px;
+}
+
+.imagecam{
+    min-height: 182px;
+    min-width: 182px;
+    
+}
+
+.imagebiere{
+    min-height: 182px;
+    min-width: 182px;
+}
+
+.imagedevices{
+    min-height: 182px;
+    min-width: 182px;
+}
+
+.texte h3{
+    font-size: 25px;
+    font-weight: normal;
+    color: #404040;
+}
+
+.image, .texte{
+    margin-bottom: 80px;
+}
+
+.texte{
+    text-align: justify;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #8b8b8b;
+}
+
+.fondpied{
+    background-image:url("../img/footerback.jpg") ;
+}
+
+.flexpied{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picto{
+    min-width: 282px;
+    margin-top: 55px;
+}
+
+.flexicon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu a{
+    color:#7e7e7e;
+    list-style: none;
+    text-decoration: none;
+}
+
+.submenu h4{
+    font-size: 21px;
+    font-weight: normal;
+    color: #8b8b8b;
+}
+
+.picto{
+    color:#7e7e7e;
+}
